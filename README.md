@@ -31,7 +31,7 @@ digimon-data-analysis/
 ## 运行方式
 ```bash
 # 克隆项目
-git clone https://github.com/你的名字/digimon-data-analysis.git
+git clone https://github.com/zqzp111/digimon-data-analysis.git
 
 # 安装依赖
 pip install pandas numpy matplotlib seaborn
