@@ -12,11 +12,13 @@
 
 ## 项目结构
 digimon-data-analysis/
-├── digimon_cleaning.ipynb          # 主分析脚本
-├── DigiDB_digimonlist.csv          # 原始数据
-├── DigiDB_digimonlist_cleaned.csv  # 清洗后数据
-├── cleaning_report.md              # 清洗报告
-└── README.md                       # 项目说明
+├── digimon_cleaning.ipynb     # 主分析脚本
+├── data/
+│   ├── raw/
+│   │   └── DigiDB_digimonlist.csv # 原始数据（<1MB，已上传）
+│   └── processed/
+│       └── digimon_cleaned.csv    # 清洗后数据                                      
+└── README.md                      # 项目说明
 ## 数据处理流程
 1. **列名规范化**: 统一列名格式（Lv 50 HP → Lv50_HP）
 2. **数据类型转换**: 将Memory等列转换为数值类型
