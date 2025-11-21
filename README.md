@@ -1,4 +1,5 @@
 # digimon-data-analysis
+
 数码宝贝数据清洗与分析项目
 
 ## 项目简介
@@ -19,8 +20,6 @@ digimon-data-analysis/
 │   └── processed/
 │       └── DigiDB_digimonlist_cleaned.csv
 └── README.md
-
-
 ## 数据处理流程
 1. **列名规范化**: 统一列名格式（Lv 50 HP → Lv50_HP）
 2. **数据类型转换**: 将Memory等列转换为数值类型
@@ -35,13 +34,12 @@ digimon-data-analysis/
 ## 运行方式
 ```bash
 # 克隆项目
-git clone https://github.com/zqzp111/digimon-data-analysis.git
+git clone https://github.com/zqzp111/digimon-data-analysis.git 
 
 # 安装依赖
 pip install pandas numpy matplotlib seaborn
+GitHub: zqzp111
+项目完成时间：2025年11月19日
 
 # 启动Jupyter
 jupyter notebook digimon_cleaning.ipynb
-
-GitHub: zqzp111
-项目完成时间：2025年11月19日
