@@ -12,15 +12,14 @@
 
 ## 项目结构
 digimon-data-analysis/
-├── notebooks/
-│   └── digimon_cleaning.ipynb
+├── digimon_cleaning.ipynb
 ├── data/
 │   ├── raw/
 │   │   └── DigiDB_digimonlist.csv
 │   └── processed/
-│       └── digimon_cleaned.csv
-├── reports/
+│       └── DigiDB_digimonlist_cleaned.csv
 └── README.md
+
 
 ## 数据处理流程
 1. **列名规范化**: 统一列名格式（Lv 50 HP → Lv50_HP）
