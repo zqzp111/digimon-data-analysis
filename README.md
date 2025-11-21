@@ -10,8 +10,8 @@
 - **可视化**: Matplotlib, Seaborn
 - **开发环境**: Jupyter Notebook
 
-## 项目结构
-'''digimon-data-analysis/
+'''## 项目结构
+digimon-data-analysis/
 ├── digimon_cleaning.ipynb     # 主分析脚本
 ├── data/
 │   ├── raw/
