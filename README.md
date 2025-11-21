@@ -11,14 +11,17 @@
 - **开发环境**: Jupyter Notebook
 
 ## 项目结构
-'''digimon-data-analysis/
-├── digimon_cleaning.ipynb     # 主分析脚本
+digimon-data-analysis/
+├── notebooks/
+│   └── digimon_cleaning.ipynb
 ├── data/
 │   ├── raw/
-│   │   └── DigiDB_digimonlist.csv # 原始数据（<1MB，已上传）
+│   │   └── DigiDB_digimonlist.csv
 │   └── processed/
-│       └── digimon_cleaned.csv    # 清洗后数据                                      
-└── README.md                      # 项目说明'''
+│       └── digimon_cleaned.csv
+├── reports/
+└── README.md
+
 ## 数据处理流程
 1. **列名规范化**: 统一列名格式（Lv 50 HP → Lv50_HP）
 2. **数据类型转换**: 将Memory等列转换为数值类型
